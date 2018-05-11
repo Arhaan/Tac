@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game"
+    android:paddingTop="50dp"
+    android:paddingStart="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/img00"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/img01"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+
+        app:layout_constraintLeft_toRightOf="@+id/img00"
+         />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/img02"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+
+        app:layout_constraintLeft_toRightOf="@+id/img01"
+
+         />
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:id="@+id/img10"
+        app:layout_constraintTop_toBottomOf="@id/img00"
+        android:scaleType="fitXY"
+
+        />
+    <android.support.v7.widget.AppCompatImageButton
+    android:layout_width="124dp"
+    android:layout_height="124dp"
+    android:id="@+id/img11"
+        app:layout_constraintLeft_toRightOf="@+id/img10"
+        app:layout_constraintTop_toBottomOf="@id/img00"
+        android:scaleType="fitXY"
+
+        />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/img12"
+        android:scaleType="fitXY"
+
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        app:layout_constraintLeft_toRightOf="@+id/img11"
+        app:layout_constraintTop_toBottomOf="@id/img00"
+
+        />
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:id="@+id/img20"
+        app:layout_constraintTop_toBottomOf="@id/img10"
+        android:scaleType="fitXY"
+
+        />
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:id="@+id/img21"
+        app:layout_constraintLeft_toRightOf="@+id/img20"
+        app:layout_constraintTop_toBottomOf="@id/img10"
+        android:scaleType="fitXY"
+
+        />
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:id="@+id/img22"
+        app:layout_constraintLeft_toRightOf="@+id/img21"
+        app:layout_constraintTop_toBottomOf="@id/img10"
+        android:scaleType="fitXY"
+
+        />
+
+
+</android.support.constraint.ConstraintLayout>
